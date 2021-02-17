@@ -15,7 +15,6 @@ Dowloaded rainbow tables <br>
 Echo’d all uncracked passwords from challenge into hashes.txt <br>
 ophcrack -d . -t . -n 4 -s hashes.txt <br>
 <br>
-<br>
 Law and Order: <br>
 Gather trancript of words from all episodes <br>
 -hashcat hash.txt -m 0 -a 6 hash.txt svu.txt ?d?d <br>
