@@ -9,6 +9,8 @@ Uniq is report or omit certain lines <br>
 	-c is count <br>
 wc is print newline, word, and byte counts for each file <br>
 	-l is print the number of unique lines <br>
+	
+cat NASA_access.log | grep -E " 404 " -o | uniq -c
 
 cat access.log | cut -d ‘”’ -f3 | cut -d ‘ ‘ -f2 | sort | uniq -c | sort -rn <br>
 	(‘ “ ‘) <br>
